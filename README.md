@@ -46,4 +46,6 @@ Train machine learning models using the prepared dataset.
 Evaluate model performance and optimize for better accuracy.
 Implement the models to predict future landing outcomes.
 
-## Contact For any questions or suggestions, please reach out to [Daniel] at [oluwafikayore@gmail.com].
+## Contact
+
+For any questions or suggestions, please reach out through [oluwafikayore@gmail.com].
