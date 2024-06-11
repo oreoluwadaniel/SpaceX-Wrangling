@@ -40,12 +40,12 @@ The landing outcomes are categorized as follows:
 
 ## Conclusion
 
-This project successfully conducted EDA to understand the data and determined the training labels for supervised learning models. The next steps involve building and evaluating machine learning models to predict the landing outcomes of Falcon 9 first stages.
+This project successfully conducted EDA to understand the data and determined the training labels for supervised learning models. 
 
 ## Future Work
-Train machine learning models using the prepared dataset.
-Evaluate model performance and optimize for better accuracy.
-Implement the models to predict future landing outcomes.
+* Train machine learning models using the prepared dataset.
+* Evaluate model performance and optimize for better accuracy.
+* Implement the models to predict future landing outcomes.
 
 
 ## Contact
