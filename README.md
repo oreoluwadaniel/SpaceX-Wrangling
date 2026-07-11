@@ -1,53 +1,36 @@
-# SpaceX Falcon 9 First Stage Landing Prediction
-  This project focuses on predicting the landing outcome of the SpaceX Falcon 9 first stage using Exploratory Data Analysis (EDA) and supervised machine learning models.
+# SpaceX Falcon 9: Data Wrangling for Landing Prediction
+
+Data wrangling and label preparation for a Falcon 9 first-stage landing-outcome prediction model.
+
+## Overview
+
+This project prepares SpaceX Falcon 9 launch data for supervised machine learning by cleaning the data and deriving training labels from landing outcomes.
 
 ## Objectives
-* Perform Exploratory Data Analysis (EDA) to uncover patterns in the data.
-* Determine training labels for supervised models.
 
-## Data Description
-The dataset includes various attributes of Falcon 9 launches, such as flight number, date, booster version, payload mass, orbit, launch site, and outcome. Here are the key variables:
+- Perform exploratory data analysis to uncover patterns in the data
+- Derive training labels for supervised models from landing outcome data
 
-* FlightNumber: Number of the flight
-* Date: Launch date
-* BoosterVersion: Version of the booster
-* PayloadMass: Mass of the payload in kg
-* Orbit: Target orbit
-* LaunchSite: Site of the launch
-* Outcome: Outcome of the landing (successful or not)
-* Flights: Number of flights
-* GridFins: Presence of grid fins
-* Reused: Whether the booster was reused
-* Legs: Presence of landing legs
-* LandingPad: Landing pad used
-* Block: Block number of the booster
-* ReusedCount: Number of times the booster was reused
-* Serial: Serial number of the booster
-* Longitude: Longitude of the launch site
-* Latitude: Latitude of the launch site
+## Dataset
 
+Key fields include flight number, date, booster version, payload mass, orbit, launch site, landing outcome, and booster reuse history.
 
-## Landing Outcomes
-The landing outcomes are categorized as follows:
-* True Ocean: Successfully landed in the ocean
-* False Ocean: Unsuccessfully landed in the ocean
-* True RTLS: Successfully landed on a ground pad
-* False RTLS: Unsuccessfully landed on a ground pad
-* True ASDS: Successfully landed on a drone ship
-* False ASDS: Unsuccessfully landed on a drone ship
-* None None: No landing attempt
+## Landing outcome categories
 
+True/False Ocean, True/False RTLS (ground pad), True/False ASDS (drone ship), and no landing attempt.
 
-## Conclusion
+## Tech stack
 
-This project successfully conducted EDA to understand the data and determined the training labels for supervised learning models. 
+Python, pandas
 
-## Future Work
-* Train machine learning models using the prepared dataset.
-* Evaluate model performance and optimize for better accuracy.
-* Implement the models to predict future landing outcomes.
+## Status
 
+EDA and labeling are complete. Next step is training and evaluating a classification model on the prepared dataset.
+
+## Related project
+
+See [Falcon-9-Landing-Prediction-EDA](https://github.com/oreoluwadaniel/Falcon-9-Landing-Prediction-EDA) for the exploratory analysis and visualization of the same launch data.
 
 ## Contact
 
-For any questions or suggestions, please reach out through [oluwafikayore@gmail.com].
+oluwafikayore@gmail.com
